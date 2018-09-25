@@ -1,0 +1,19 @@
+ <?xml version="1.0"?>
+ <?xml-stylesheet type="text/xsl" href="vehicles.xsl"?>
+
+<vehicles>
+  <vehicle year="2018" make="Acura" model="3.2TL">
+     <color>white</color>
+     <price>33900</price>
+   </vehicle>
+
+  <vehicle year="2010" make="Honda" model="3.2TL">
+     <color>white</color>
+     <price>32900</price>
+   </vehicle>
+
+   <vehicle year="2004" make="COROLLA" model="3.2TL">
+     <color>black</color>
+     <price>31995</price>
+   </vehicle>
+</vehicles>
