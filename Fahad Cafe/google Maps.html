@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+       #map {
+        height: 600px;
+        width: 100%;
+        
+       }
+      
+    </style>
+  </head>
+  <body>
+    <h3>Locations of Fahad Cafe</h3>
+    <div id="map"></div>
+
+	
+
+<script>
+
+      function initMap() {
+        var myLatLng = {lat: 24.552613920146214, lng: 46.745415661317565};
+        var myLatLng1 = { lat:37.778966151840166, lng: -122.4225754688058};
+        var myLatLng2 = { lat:51.5286248104458, lng:-0.23871358873202553};
+
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 2,
+          center: myLatLng
+        });
+
+        var marker = new google.maps.Marker({
+          position: myLatLng,
+          map: map,
+          title: 'Riyadh'
+        });
+           var marker = new google.maps.Marker({
+          position: myLatLng1,
+          map: map,
+          title: 'San Fransisco'
+        });
+           var marker = new google.maps.Marker({
+          position: myLatLng2,
+          map: map,
+          title: 'London'
+        });
+      }
+   
+    </script>
+
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA21gTldTq0T157EcgQCa9ugbzsjceKo1o&callback=initMap">
+    </script>
+  </body>
+</html>
