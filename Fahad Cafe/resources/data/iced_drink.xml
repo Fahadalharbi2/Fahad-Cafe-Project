@@ -1,0 +1,56 @@
+<Iced_drink_menu>
+<drink>
+<name>ICED COFFEE</name>
+<description>
+Freshly brewed and full of flavor, our Iced Coffee gets you energized and ready to go
+</description>
+</drink>
+<drink>
+<name>ICED LATTE</name>
+<description>
+Our smooth and creamy Iced Lattes are made from our freshly ground and brewed espresso, combined with cold milk and served over ice.
+</description>
+</drink>
+<drink>
+<name>ICED TEA</name>
+<description>
+Our refreshing, revitalizing teas are freshly brewed in store each day and served over ice
+</description>
+</drink>
+<drink>
+<name>ICED MACCHIATO</name>
+<description>
+A layered espresso beverage crafted with care – two shots of freshly brewed espresso are poured over cold milk and a swirl of flavor and ice.
+</description>
+</drink>
+<drink>
+<name>Iced Latte Macchiato</name>
+<description>
+This new espresso classic combines shots of espresso, whole milk and ice for a bold and roasty new way to sip.
+</description>
+</drink>
+<drink>
+<name>Iced Caffe Americano</name>
+<description>
+Espresso shots are topped with hot water to produce a light layer of crema then served over ice. The result is this wonderfully rich cup with depth and nuance. Pro tip: for additional caffeine, ask your barista to try this with an extra shot.
+</description>
+</drink>
+<drink>
+<name>Iced Caffe Mocha</name>
+<description>
+Espresso combined with bittersweet mocha sauce and milk over ice. Topped with sweetened whipped cream.
+</description>
+</drink>
+<drink>
+<name>Iced White Chocolate Mocha</name>
+<description>
+Our signature espresso meets white chocolate sauce, milk and ice, then is finished off with sweetened whipped cream in this white chocolate delight.
+</description>
+</drink>
+<drink>
+<name>Iced Vanilla Latte</name>
+<description>
+Rich, full-bodied espresso blended with milk and vanilla syrup, served over ice.
+</description>
+</drink>
+</Iced_drink_menu>

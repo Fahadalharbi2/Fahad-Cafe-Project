@@ -3,15 +3,25 @@
 <html lang="en">
 
 <head>
+    
+    
+    <meta charset="UTF-8">
+    <meta name="description" content="a cafe like never before ">
+    <meta name="keywords" content="coffe,coffe shop,cafe, dinner, lunch, breakfast">
+    
+    
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="resources/js/script.js"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
       
     <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
-    <link rel="stylesheet"type="text/css"href="vendors/css/ionicons.min.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
     <link rel="stylesheet" type="text/css" href="resources/css/style.css">
     <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400" rel="stylesheet"> 
     
-   <link rel="stylesheet" type="text/css" href="//www.fontstatic.com/f=sky-bold" />
+    
     
     
 <style>
@@ -33,14 +43,14 @@
 <body>
     
     <audio autoplay>
-     <source src="Audio/Calming-harp-music.mp3" type="audio/mpeg">
+     <source src="resources/Audio/Calming-harp-music.mp3" type="audio/mpeg"/>
     </audio>
     
     <header>
         <div class="row">
                 <ul class="main-language">
-                    <li><a href="#">English</a></li>
-                    <li><a href="#">عربي</a></li>
+                    <li><a href="index.html">English</a></li>
+                    <li><a href="Arabic%20Version.html">عربي</a></li>
                 </ul>
             
             </div>
@@ -82,7 +92,7 @@
                     <i class="ion-ios-infinite-outline icon-big"></i>
                     <h3>Enjoy a variety of food and drinks</h3>
                     <p>
-                        In Fahad Cafe there many kinds of food and drink. Never make your coffee or cook again! We really mean that. Enjoy a variety of food and drinks here in Fahad Cafe. You can also choose to order more flexibly if that's your style.
+                        In Fahad Cafe there many kinds of food and drink. Never make your coffee or cook again! We really mean that. Enjoy a variety of food and drinks here in Fahad Cafe. You can also choose to order more flexible if that's your style.
                     </p>
                 </div>
                 <div class="col span-1-of-4 box">
@@ -110,7 +120,65 @@
         </section>
    
     
-    <section class="section-customer-reviews" id="reviews" >
+ 
+    
+    
+    <section class="section-meals">
+        <div class="row">
+                <h2>Menu</h2>
+                <p class="long-copy">
+                </p>
+            </div>
+            <ul class="menu-showcase clearfix">
+                <li>
+                    <figure class="menu-photo">
+                        <img src="resources/img/beans.jpg" alt="Beans Sections" title="This is beans Menu">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="menu-photo">
+                        <img src="resources/img/breakfast.jpg" alt="Breakfast Sections" title="This is breakfast Menu">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="menu-photo">
+                        <img src="resources/img/dessert.jpg" alt="dessert Section" title="This is dessert Menu">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="menu-photo">
+                        <img src="resources/img/Iced_drink.jpg" alt="Iced_drink Section" title="This is iced drink Menu">
+                    </figure>
+                </li>
+            </ul>
+              <ul class="menu-showcase clearfix ">
+                 
+                <li>
+                    <figure class="menu-photo">
+                        <img src="resources/img/food.jpg" alt="Dinner section" title="This is Dinner Menu">
+                    </figure>
+                </li>
+                <li>
+                    <figure class="menu-photo">
+                        <img src="resources/img/hot_drink.jpg" alt="Hot drink section" title="This is Hot drink Menu">
+                    </figure>
+                </li>
+                  <li>
+                    <figure class="menu-photo">
+                        <img src="resources/img/lunch.jpg" alt="lunch section" title="This is Lunch Menu">
+                    </figure>
+                </li>
+                 <li>
+                    <figure class="menu-photo">
+                        <img src="resources/img/salad.jpg" alt=" Salads section" title="This is Salads Menu">
+                    </figure>
+                </li>  
+            </ul>
+        </section>
+    
+    
+    
+       <section class="section-customer-reviews" id="reviews" >
             <div class="row">
                 <h2>Customer Reviews</h2>
                 <p class="long-copy">
@@ -128,80 +196,20 @@
                     
                     <h3></h3>
                     <p>
-                        <span class="yelp-review" data-review-id="7iPu2i2yLCZIj-cGnLo5Gw" data-hostname="www.yelp.com">Read <a href="https://www.yelp.com/user_details?userid=-q0rmCOPCgakJJ0H2mJ1mg" rel="nofollow noopener">Xenu M.</a>'s <a href="https://www.yelp.com/biz/maya-del-sol-oak-park?hrid=7iPu2i2yLCZIj-cGnLo5Gw" rel="nofollow noopener">review</a> of <a href="https://www.yelp.com/biz/XL3kNO7mW7sZ2lLiJxvoEA" rel="nofollow noopener">Fahad Cafe</a> on <a href="https://www.yelp.com" rel="nofollow noopener">Yelp</a><script async="async" src="https://www.yelp.com/embed/widgets.js" type="text/javascript"></script></span>
+                        <span class="yelp-review" data-review-id="6ii9UCTnRtTtO05uV1R87Q" data-hostname="www.yelp.com">Read <a href="https://www.yelp.com/user_details?userid=IRASw3XEpRsAHjDfkJKO5A" rel="nofollow noopener">Lisa C.</a>'s <a href="https://www.yelp.com/biz/caff%C3%A8-r%C5%8Dm-chicago-6?hrid=6ii9UCTnRtTtO05uV1R87Q" rel="nofollow noopener">review</a> of <a href="https://www.yelp.com/biz/jQ07EXdqUJ3o8Gg020dstA" rel="nofollow noopener">Caffè RōM</a> on <a href="https://www.yelp.com" rel="nofollow noopener">Yelp</a><script async="async" src="https://www.yelp.com/embed/widgets.js" type="text/javascript"></script></span>
                     </p>
                 </div>
          <div class="col span-1-of-3 ">
                     
                     <h3></h3>
                     <p>
-                        <span class="yelp-review" data-review-id="7iPu2i2yLCZIj-cGnLo5Gw" data-hostname="www.yelp.com">Read <a href="https://www.yelp.com/user_details?userid=-q0rmCOPCgakJJ0H2mJ1mg" rel="nofollow noopener">Xenu M.</a>'s <a href="https://www.yelp.com/biz/maya-del-sol-oak-park?hrid=7iPu2i2yLCZIj-cGnLo5Gw" rel="nofollow noopener">review</a> of <a href="https://www.yelp.com/biz/XL3kNO7mW7sZ2lLiJxvoEA" rel="nofollow noopener">Fahad Cafe</a> on <a href="https://www.yelp.com" rel="nofollow noopener">Yelp</a><script async="async" src="https://www.yelp.com/embed/widgets.js" type="text/javascript"></script></span>
+                      <span class="yelp-review" data-review-id="QtygZSFHEJkF2u__HVBt-Q" data-hostname="www.yelp.com">Read <a href="https://www.yelp.com/user_details?userid=OyPz3rWYXHLHO_6uH_BnDg" rel="nofollow noopener">Sarah R.</a>'s <a href="https://www.yelp.com/biz/la-colombe-coffee-chicago-3?hrid=QtygZSFHEJkF2u__HVBt-Q" rel="nofollow noopener">review</a> of <a href="https://www.yelp.com/biz/4hhsyYChjYkXWxEfhyvcfw" rel="nofollow noopener">La Colombe Coffee</a> on <a href="https://www.yelp.com" rel="nofollow noopener">Yelp</a><script async="async" src="https://www.yelp.com/embed/widgets.js" type="text/javascript"></script></span>
                     </p>
                 </div>
             </div>
         
         </section>
-    
-    
-    <section class="section-meals">
-        <div class="row">
-                <h2>Menu</h2>
-                <p class="long-copy">
-                </p>
-            </div>
-            <ul class="meals-showcase clearfix">
-                <li>
-                    <figure class="meal-photo">
-                        <img src="resources/img/beans.jpg" alt="Beans Sections">
-                    </figure>
-                </li>
-                <li>
-                    <figure class="meal-photo">
-                        <img src="resources/img/breakfast.jpg" alt="Breakfast Sections">
-                    </figure>
-                </li>
-                <li>
-                    <figure class="meal-photo">
-                        <img src="resources/img/desert.jpg" alt="Desert Section">
-                    </figure>
-                </li>
-                <li>
-                    <figure class="meal-photo">
-                        <img src="resources/img/Iced_drink.jpg" alt="Iced_drink Section">
-                    </figure>
-                </li>
-            </ul>
-              <ul class="meals-showcase clearfix">
-                <li>
-                    <figure class="meal-photo">
-                        <img src="resources/img/food.jpg" alt="Dinner section">
-                    </figure>
-                </li>
-                <li>
-                    <figure class="meal-photo">
-                        <img src="resources/img/lunch.jpg" alt="lunch section">
-                    </figure>
-                </li>
-                <li>
-                    <figure class="meal-photo">
-                        <img src="resources/img/hot_drink.jpg" alt="Hot drink section">
-                    </figure>
-                </li>
-                <li>
-                    <figure class="meal-photo">
-                        <img src="resources/img/breakfast.jpg" alt="Granola with cherries and strawberries">
-                    </figure>
-                </li>
-            </ul>
-        </section>
         
-    
-    
-    
-
-        
-
-	
 
 <script>
 
@@ -237,17 +245,20 @@
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA21gTldTq0T157EcgQCa9ugbzsjceKo1o&callback=initMap">
       </script>  
+    
     <div class="row">
-      
-        <div class="map-box">
-            </div>
-            <div class="row">
                 
                 <h2>We're happy to hear from you</h2>
                 <p class="long-copy">
                 </p>
             </div>
-     <div id="map"></div>
+    
+    <div class="row">
+      
+        <div class="map-box">
+             <div id="map"></div>
+            
+    
         
        <div class="form-box" id="form">
                     <div class="row">
@@ -257,19 +268,22 @@
                             <div class="row">
                                 
                                 <?php
-                                if ($_Get['success']==1){
-                                    echo"<div class=\"form-messages sucess\">
+
+if (isset($_GET['success'])==1){
+    echo"<div class=\"form-messages success\">
                                 Thank you! your message has been sent.
                             </div>";
-                                }
-                                if ($_Get['success']==-1){
-                                    echo"<div class=\"form-messages error\">
+}
+                                
+if (isset($_GET['success'])==-1){
+    echo"<div class=\"form-messages error\">
                                 Opps! Something went wrong.
                             </div>";
-                                }
-                                
-                            ?>
-                            </div>
+                            
+}
+                           
+                         ?>
+						 </div>
                             <div class="row">
                                 <div class="col span-1-of-3">
                                     <label for="name">Name</label>
@@ -334,6 +348,7 @@
     
            
      </div>
+          </div>
         
     
     
@@ -346,7 +361,7 @@
         <div class="col span-1-of-2">
         <ul class="footer-nav">
             <li><a href="#">About Us</a></li>
-            <li><a href="resources/js/google%20Maps.html" target="_blank">Locations</a></li>
+            <li><a href="google%20Maps.html" target="_blank">Locations</a></li>
             <li><a href="#">IOS App</a></li>
             <li><a href="#">Android App</a></li>
             </ul>
@@ -374,13 +389,7 @@
         
     </footer>
 
-   
-    
 
-
-    
- 
-    
 
 </body>
 

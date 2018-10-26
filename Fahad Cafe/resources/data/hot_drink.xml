@@ -1,0 +1,56 @@
+<hot_drink_menu>
+<drink>
+<name>AMERICANO</name>
+<description>
+Our new Hot Americano combines two shots of 100% Rainforest Alliance Certified™ espresso with hot water for a rich, robust flavor.
+</description>
+</drink>
+<drink>
+<name>LATTE</name>
+<description>
+We combine our freshly ground and brewed espresso with steamed milk, and top it off with a thin layer of foam, to create our rich and creamy Hot Latte.
+</description>
+</drink>
+<drink>
+<name>HOT CHOCOLATE</name>
+<description>
+Cozy up with one of our creamy, craveable hot chocolates. Available in a variety of flavors sure to warm your soul.
+</description>
+</drink>
+<drink>
+<name>MACCHIATO</name>
+<description>
+A layered espresso beverage, crafted with care that contains two shots of espresso poured over steamed milk with a swirl of flavor.
+</description>
+</drink>
+<drink>
+<name>ESPRESSO</name>
+<description>
+Our blend of espresso is selected from high-quality beans that are roasted to perfection. We freshly grind and brew every shot of espresso for each beverage a guest orders. 
+</description>
+</drink>
+<drink>
+<name>CAPPUCCINO</name>
+<description>
+Our Cappuccino is made from freshly ground and brewed espresso combined with steamed milk and topped with a thick layer of foam.. 
+</description>
+</drink>
+<drink>
+<name>TURKISH COFFEE</name>
+<description>
+ Turkish Coffee is made from high quality beans that are blended and carefully roasted, then very finely ground. The coffee is mixed with water and the desired amount of sugar and cooked in a "cezve", or Turkish coffeepot.
+</description>
+</drink>
+<drink>
+<name>ARABIC COFFEE</name>
+<description>
+ Arabic coffee is ingrained within Middle Eastern and Arab culture and tradition, and is the most popular form of coffee brewed in the Middle East
+</description>
+</drink>
+<drink>
+<name>FRENCH COFFEE</name>
+<description>
+a coffee beans fron France with milk flavored
+</description>
+</drink>
+</hot_drink_menu>

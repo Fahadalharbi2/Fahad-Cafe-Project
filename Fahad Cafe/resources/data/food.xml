@@ -1,0 +1,64 @@
+<food_menu>
+<food>
+<name>HOMESTYLE BONE-IN FRIED CHICKEN</name>
+<description>
+This hand-breaded comfort classic is cooked to golden-crispy and juicy perfection. A plate filling portion will certainly leave you full and happy. 
+ Served with your choice of sides and freshly baked bread.
+</description>
+</food>
+<food>
+<name>HOMESTYLE FRIED CHICKEN TENDERS</name>
+<description>
+Oversized, premium cut all-white-meat chicken tenders. Cooked to golden-crusted perfection. Crispy on the outside, juicy on the inside, served with your choice of two sides and bread.
+</description>
+</food>
+<food>
+<name>GRILLED TO PERFECTION CHICKEN</name>
+<description>
+Marinated boneless chicken breasts. Served with your choice of two farmhouse sides and freshly baked bread.
+</description>
+</food>
+<food>
+<name>HERB-RUBBED TURKEY & DRESSING</name>
+<description>
+Ohioans know the key to any good turkey is time. That's why our real turkey breast is slow-roasted in our kitchens for hours with our new savory blend of herbs and spices. Served with homestyle gravy, your choice of sides, cranberry relish and freshly-baked bread.
+</description>
+</food>
+<food>
+<name>HANDCRAFTED DELI TURKEY SANDWICH</name>
+<description>
+Shaved Signature slow-roasted turkey, Swiss cheese, lettuce, tomatoes, onion and roasted tomato mayo on marble wheat bread. Served with your choice of sides.
+</description>
+</food>
+<food>
+<name> Turkey Burger</name>
+<description>
+ An all-white meat, flame-broiled turkey burger with Vermont Cheddar cheese, lettuce, fresh pico de gallo and guacamole
+</description>
+</food>
+<food>
+<name> Cheese Burger</name>
+<description>
+A classic, can’t-go-wrong favorite. Comes with American,
+Vermont Cheddar or Swiss cheese
+</description>
+</food>
+<food>
+<name>CHICKEN & NOODLES</name>
+<description>
+Thick country-style egg noodles, slow-roasted, all-white-meat chicken and vegetables simmered in a rich broth
+</description>
+</food>
+<food>
+<name>CHEDDAR BAKED POTATO SOUP</name>
+<description>
+Homestyle cuts of russet potatoes in a seasoned cheese sauce garnished with bacon and scallions.
+</description>
+</food>
+<food>
+<name>HEARTY BEEF VEGETABLE SOUP</name>
+<description>
+Tender beef slow-cooked in a tomato broth loaded with farm vegetables: carrots, corn, tomatoes, potatoes, celery and onions.
+</description>
+</food>
+</food_menu>
