@@ -1,32 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="beans.xsl"?>
+
 <Coffee_beans>
 <beans>
 <name>Cappuccino </name>
+<images>
+<image type="png" url="http://gulfup.co/i/00699/bjfzz0ovi0z8.png">thumbnail</image>
+</images>
 </beans>
 <beans>
 <name>Espresso </name>
+<images>
+<image  type="png" url="http://gulfup.co/i/00699/7m0fh3rpohio.png">thumbnail</image>
+</images>
 </beans>
 <beans>
 <name>French Coffee </name>
+<images>
+<image  type="png" url="http://gulfup.co/i/00699/ecs1o9qy9kbg.png">thumbnail</image>
+</images>
 </beans>
 <beans>
 <name>Turkish coffee -light </name>
+<images>
+<image type="png" url="http://gulfup.co/i/00699/26cv52hbv2sb.png">thumbnail</image>
+</images>
 </beans>
 <beans>
 <name>Turkish coffee -medium</name>
+<images>
+<image type="png" url="http://gulfup.co/i/00699/05y84nq9xncb.png">thumbnail</image>
+</images>
 </beans>
 <beans>
 <name>Turkish coffee -dark</name>
+<images>
+<image  type="png" url="http://gulfup.co/i/00699/tc32fis7vhps.png">thumbnail</image>
+</images>
 </beans>
 <beans>
 <name>Turkish coffee -extra dark</name>
+<images>
+<image  type="png" url="http://gulfup.co/i/00699/tc32fis7vhps.png">thumbnail</image>
+</images>
 </beans>
 <beans>
 <name>Arabic Coffee - light</name>
+<images>
+<image  type="png" url="http://gulfup.co/i/00699/bjfzz0ovi0z8.png">thumbnail</image>
+</images>
 </beans>
 <beans>
 <name>Arabic Coffee - medium</name>
+<images>
+<image  type="png" url="http://gulfup.co/i/00699/tc32fis7vhps.png">thumbnail</image>
+</images>
 </beans>
 <beans>
 <name>Arabic Coffee - dark</name>
+<images>
+<image  type="png" url="http://gulfup.co/i/00699/bjfzz0ovi0z8.png">thumbnail</image>
+</images>
 </beans>
 </Coffee_beans>
+
+
+
+
+

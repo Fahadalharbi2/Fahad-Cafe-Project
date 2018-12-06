@@ -1,3 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="iced_drink.xsl"?>
+
+
 <Iced_drink_menu>
 <drink>
 <name>ICED COFFEE</name>

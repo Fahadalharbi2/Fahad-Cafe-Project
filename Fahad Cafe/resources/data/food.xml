@@ -1,3 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="food.xsl"?>
+
 <food_menu>
 <food>
 <name>HOMESTYLE BONE-IN FRIED CHICKEN</name>
@@ -19,11 +22,12 @@ Marinated boneless chicken breasts. Served with your choice of two farmhouse sid
 </description>
 </food>
 <food>
-<name>HERB-RUBBED TURKEY & DRESSING</name>
+<name>HERB-RUBBED TURKEY and DRESSING</name>
 <description>
 Ohioans know the key to any good turkey is time. That's why our real turkey breast is slow-roasted in our kitchens for hours with our new savory blend of herbs and spices. Served with homestyle gravy, your choice of sides, cranberry relish and freshly-baked bread.
 </description>
 </food>
+
 <food>
 <name>HANDCRAFTED DELI TURKEY SANDWICH</name>
 <description>
@@ -44,7 +48,7 @@ Vermont Cheddar or Swiss cheese
 </description>
 </food>
 <food>
-<name>CHICKEN & NOODLES</name>
+<name>CHICKEN and NOODLES</name>
 <description>
 Thick country-style egg noodles, slow-roasted, all-white-meat chicken and vegetables simmered in a rich broth
 </description>

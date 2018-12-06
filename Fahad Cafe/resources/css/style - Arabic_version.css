@@ -215,7 +215,7 @@ input[type=submit]:active {
     
     height: 150px;
     width: auto;
-    float: left;
+    float: right;
     margin-top: 5px;
     margin-left: 30px;
     border-radius: 50px;
@@ -312,6 +312,99 @@ input[type=submit]:active {
 
 .sticky .logo { display: none; }
 .sticky .logo-black { display: block; }
+
+
+/*----------------------------- */
+.section-steps {
+    background-color: #f4f4f4;
+    
+}
+
+.steps-box 
+{
+    margin-top: 30px;
+    
+}
+
+
+.steps-box:first-child
+ {
+    text-align: right;
+    padding-right: 3%;
+}
+
+
+.steps-box:last-child {
+    text-align: left;
+    padding-left: 2%;
+  margin-top: 70px;
+  
+    
+   
+}
+
+.steps-box:last-child p {
+    text-align: right;
+    margin-right: 40px;
+  margin-top: 40px;
+    
+
+}
+
+.app-screen {
+    width: 50%;
+}
+
+.works-step
+ {
+    margin-bottom: 60px;
+
+}
+
+.works-step:last-of-type 
+{
+    margin-bottom: 80px;
+}
+
+.works-step p{
+    padding-top: 12px;
+    margin-right: 20px;
+
+}
+
+.works-step div 
+{
+    color: #e67e22;
+    font-size: 150%;
+    height: 54px;
+    width: 54px;
+ 
+   border: 2px solid #e67e22;
+    border-radius: 50%;
+    
+ 
+   text-align: center;
+    margin-right: 270px;
+    float: right;
+    padding: 7px;
+    
+
+    
+}
+
+.btn-app:link,
+.btn-app:visited {
+ 
+   border: 0;
+}
+
+.btn-app img {
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+}
+
+
 
 
 
@@ -461,6 +554,73 @@ input[type=checkbox] {
     background-color: green;
 }
 
+/*----------------------------- */
+.section-signup {
+      background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+ url(img/back-customers-min.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), 
+url(img/back-customers-min.jpg);
+    background-size: cover;
+    color: #fff;
+  
+  background-attachment: fixed;
+    
+    
+}
+
+
+
+.signup-box 
+{
+    margin-top: 30px;
+    text-align: right;
+       padding-right: 100%;
+    
+}
+
+
+
+
+.signup-step div 
+{
+    color: #e67e22;
+    font-size: 150%;
+    height: 54px;
+    width: 54px;
+    
+ 
+   border: 2px solid #e67e22;
+    border-radius: 50%;
+
+ 
+   text-align: center;
+    margin-right: 3px;
+
+    float: right;
+    padding: 5px;
+}
+
+.signup-step
+ {
+    margin-bottom: 50px;
+         
+
+}
+
+.signup-step p{
+    padding-top: 10px;
+   padding-left: 80%;
+
+    
+}
+
+.signup-step:last-of-type 
+{
+    margin-bottom: 80px;
+}
+
+
+
 
 /*----------------------------------------------- 
 /* Menu */
@@ -469,6 +629,7 @@ input[type=checkbox] {
 
 .section-meals {
     padding: 0;
+     margin-top: 80px;
 }
 
 .menu-showcase {
@@ -514,6 +675,17 @@ opacity 0.5s;
     transform: scale(1.03);
 }
 
+
+/*
+ ----------------------------------------------- */
+
+
+.section-features .long-copy {
+    margin-bottom: 30px;
+}
+
+
+/* 
 
 /* ----------------------------------------------- */
 /* Animations */

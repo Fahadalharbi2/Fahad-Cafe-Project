@@ -6,14 +6,14 @@
     
     
     <meta charset="UTF-8">
-    <meta name="description" content="a cafe like never before ">
+    <meta name="description" content="a café that provides a very relaxing and inviting ambiance where you can settle in and enjoy all the drinks and food you desire ">
     <meta name="keywords" content="coffe,coffe shop,cafe, dinner, lunch, breakfast">
     
     
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="resources/js/script.js"></script>
     <script src="vendors/js/jquery.waypoints.min.js"></script>
-      
+    <script src="vendors/css/animate.css"></script>
     <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
     <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
@@ -42,8 +42,8 @@
     
 <body>
     
-    <audio autoplay>
-     <source src="resources/Audio/Calming-harp-music.mp3" type="audio/mpeg"/>
+       <audio controls autoplay muted>
+   <source src="resources/Audio/Calming-harp-music.mp3" type="audio/mpeg"/>
     </audio>
     
     <header>
@@ -59,11 +59,11 @@
             <div class="row">
             <img src="resources/css/img/logo2.png" alt="Fahad Cafe" class="logo">
                 <ul class="main-nav">
-                    <li><a href="#">Order Online</a></li>
-                    <li><a href="#">Customer Reviews</a></li>
-                    <li><a href="#"> Reserved Table</a></li>
-                    <li><a href="#"> Menu</a></li>
-                    <li><a href="#"> Sign up</a></li>
+                    <li><a href="#features">Our Services</a></li>
+                    <li><a href="#reviews">Customer Reviews</a></li>
+                    <li><a href="#table"> Reserved Table</a></li>
+                    <li><a href="#Menu"> Menu</a></li>
+                    <li><a href="#signup"> Sign up</a></li>
                 
                 </ul>
             
@@ -72,13 +72,16 @@
         </nav>
     <div class="hero-text-box">
         <h1><b>A Cafe Like Never Before </b></h1>
-         <a class="btn btn-full" href="#"><b>Menu</b></a>
-                <a class="btn btn-ghost" href="#"><b>Sign Up</b></a>
+         <a class="btn btn-full js--scroll-to-Menu" href="#"><b>Menu</b></a>
+                <a class="btn btn-ghost js--scroll-to-signup" href="#"><b>Sign Up</b></a>
         </div>
     
     </header>
     
-     
+    
+    
+  
+                
       <section class="section-features js--section-features" id="features">
             <div class="row">
                 <h2>All you need is love and more coffee</h2>
@@ -87,7 +90,7 @@
                 </p>
             </div>
             
-            <div class="row">
+            <div class="row js--wp-1">
                 <div class="col span-1-of-4 box">
                     <i class="ion-ios-infinite-outline icon-big"></i>
                     <h3>Enjoy a variety of food and drinks</h3>
@@ -120,10 +123,32 @@
         </section>
    
     
+     <section class="section-signup js--section-signup" id="signup">
+            <div class="row">
+                <h2>Sign Up Now! </h2>
+            </div>
+            <div class="row">
+               
+                <div class="col span-1-of-2 steps-box">
+                    <div class="signup-step clearfix">
+                        <div>1</div>
+                        <p> to get free drinks and food.</p>
+                    </div>
+                    <div class="signup-step clearfix">
+                        <div>2</div>
+                        <p>to keep your favorite drinks!</p>
+                    </div>
+                    <div class="signup-step clearfix">
+                        <div>3</div>
+                        <p>to order beforehand</p>
+                    </div>
+                </div>
+       </div>
+    </section>
  
     
     
-    <section class="section-meals">
+    <section class="section-meals js--section-Menu" id="Menu">
         <div class="row">
                 <h2>Menu</h2>
                 <p class="long-copy">
@@ -131,55 +156,98 @@
             </div>
             <ul class="menu-showcase clearfix">
                 <li>
+                    <a href="resources/data/beans.xml">
                     <figure class="menu-photo">
                         <img src="resources/img/beans.jpg" alt="Beans Sections" title="This is beans Menu">
                     </figure>
+                        </a>
                 </li>
                 <li>
+                    <a href="resources/data/breakfast.xml">
                     <figure class="menu-photo">
                         <img src="resources/img/breakfast.jpg" alt="Breakfast Sections" title="This is breakfast Menu">
                     </figure>
+                    </a>
                 </li>
                 <li>
+                    <a href="resources/data/dessert.xml">
                     <figure class="menu-photo">
                         <img src="resources/img/dessert.jpg" alt="dessert Section" title="This is dessert Menu">
                     </figure>
+                    </a>
                 </li>
                 <li>
+                    <a href="resources/data/iced_drink.xml">
                     <figure class="menu-photo">
                         <img src="resources/img/Iced_drink.jpg" alt="Iced_drink Section" title="This is iced drink Menu">
                     </figure>
+                    </a>
                 </li>
             </ul>
               <ul class="menu-showcase clearfix ">
                  
                 <li>
+                    <a href="resources/data/food.xml">
                     <figure class="menu-photo">
                         <img src="resources/img/food.jpg" alt="Dinner section" title="This is Dinner Menu">
                     </figure>
+                    </a>
                 </li>
                 <li>
+                    <a href="resources/data/hot_drink.xml">
                     <figure class="menu-photo">
                         <img src="resources/img/hot_drink.jpg" alt="Hot drink section" title="This is Hot drink Menu">
                     </figure>
+                    </a>
                 </li>
                   <li>
+                      <a href="resources/data/food.xml">
                     <figure class="menu-photo">
                         <img src="resources/img/lunch.jpg" alt="lunch section" title="This is Lunch Menu">
                     </figure>
+                      </a>
                 </li>
                  <li>
+                     <a href="resources/data/salads.xml">
                     <figure class="menu-photo">
                         <img src="resources/img/salad.jpg" alt=" Salads section" title="This is Salads Menu">
                     </figure>
+                     </a>
                 </li>  
             </ul>
         </section>
     
     
+       <section class="section-steps" id="table">
+            <div class="row">
+                <h2>to reserve a table &mdash; Simple as 1, 2, 3</h2>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-2 steps-box">
+                    <img src="resources/img/app-iPhone.png" alt="Fahad Cafe app on iPhone" class="app-screen js--wp-2">
+                </div>
+                <div class="col span-1-of-2 steps-box">
+                    <div class="works-step clearfix">
+                        <div>1</div>
+                        <p> sign up using the app today.</p>
+                    </div>
+                    <div class="works-step clearfix">
+                        <div>2</div>
+                        <p>Select the date and the time!</p>
+                    </div>
+                    <div class="works-step clearfix">
+                        <div>3</div>
+                        <p>Done! Enjoy</p>
+                    </div>
+                    
+                    <a href="#" class="btn-app"><img src="resources/img/download-app.svg" alt="App Store Button"></a>
+                    <a href="#" class="btn-app"><img src="resources/img/download-app-android.png" alt="Play Store Button"></a>
+                </div>
+            </div>
+        </section>
     
        <section class="section-customer-reviews" id="reviews" >
-            <div class="row">
+            <div class="row js--wp-4">
                 <h2>Customer Reviews</h2>
                 <p class="long-copy">
                 </p>

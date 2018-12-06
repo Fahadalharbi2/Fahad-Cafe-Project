@@ -267,15 +267,15 @@
                         <form method="post" action="mailer-new.php" class="contact-form">
                             <div class="row">
                                 
-                                <?php
+                         <?php
 
-if (isset($_GET['success'])==1){
+if (@$_GET["success"]==1){
     echo"<div class=\"form-messages success\">
                                 Thank you! your message has been sent.
                             </div>";
 }
                                 
-if (isset($_GET['success'])==-1){
+if (@$_GET['success']==-1){
     echo"<div class=\"form-messages error\">
                                 Opps! Something went wrong.
                             </div>";

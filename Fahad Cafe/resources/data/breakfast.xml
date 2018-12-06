@@ -1,41 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="breakfast.xsl"?>
 <BREAKFAST_menu>
 <food>
 <name>French Toast </name>
 <description>
-Fresh strawberries, blueberries & whipped cream,
+Fresh strawberries, blueberries,whipped cream,
 dulce de leche sauce or Nutella sauce.
 </description>
 </food>
 <food>
-<name>Fried Chicken and waffles </name>
+<name>Fried Chicken and waffles</name>
 <description>
 A fresh made to order combination of breast, leg, and wing. 
 Marinated in chef's own recipe, accompanied with a Belgium waffle
 </description>
 </food>
 <food>
-<name>Corn Meal Cakes </name>
+<name>Corn Meal Cakes</name>
 <description>
 Cakes made with fresh corn, red peppers and white cheddar cheese. 
 Served with smoked Virginia ham, two eggs any style and roasted red pepper sauce
 </description>
 </food>
 <food>
-<name>Steak and Eggs </name>
+<name>Steak and Eggs</name>
 <description>
 Grilled Steak served with sauteed mushrooms, 
 two eggs any style and house potatoes.
 </description>
 </food>
 <food>
-<name>Croissant Sandwich </name>
+<name>Croissant Sandwich</name>
 <description>
 Grilled croissant sandwich filled with two scrambled eggs,
  white cheddar cheese and Virginia ham. Served with house potatoes.
 </description>
 </food>
 <food>
-<name>Omelets & Eggs </name>
+<name>Omelets and Eggs</name>
 <description>
 Eggs dishes are served with Wheat, White, or Rye Toast. 
 Choice of roasted breakfast potatoes, fresh fruit, or sliced tomatoes. 
@@ -62,7 +64,7 @@ Two eggs cooked-to-order, two hotcakes or one slice of Brioche French toast serv
 </description>
 </food>
 <food>
-<name>COUNTRY FRIED STEAK & FARM FRESH EGGS</name>
+<name>COUNTRY FRIED STEAK and FARM FRESH EGGS</name>
 <description>
 Lightly breaded tender premium beef smothered with country gravy and served with two farm-fresh eggs cooked-to-order. Also includes your choice of hash browns, home fries or grits and freshly-baked bread.
 </description>
@@ -73,31 +75,26 @@ Lightly breaded tender premium beef smothered with country gravy and served with
 For a fresh start to your day. Hotcakes or Brioche French toast topped with fresh strawberries and bananas. Two fresh-cracked eggs cooked-to-order, served with your choice of breakfast meat and hash browns, home fries or grits.
 </description>
 </food>
-</BREAKFAST_menu>
-
-
-<!--  free gluten, dairy, another type egg  -->
-
-
-<food>
+<food_allergic>
 <name>Duck Eggs</name>
 <description>
 For a fresh start to your day. Hotcakes or Brioche French toast topped with fresh strawberries and bananas. Two fresh-cracked eggs cooked-to-order, served with your choice of breakfast meat and hash browns, home fries or grits.
 </description>
-</food>
+</food_allergic>
 
 
-<food>
+<food_allergic>
 <name>Gluten-free Pancakes</name>
 <description>
 For a fresh start to your day. Hotcakes or Brioche French toast topped with fresh strawberries and bananas. Two fresh-cracked eggs cooked-to-order, served with your choice of breakfast meat and hash browns, home fries or grits.
 </description>
-</food>
+</food_allergic>
 
 
-<food>
+<food_allergic>
 <name>Gluten-free Waffles, French Toast with Bacon and Fruit</name>
 <description>
 For a fresh start to your day. Hotcakes or Brioche French toast topped with fresh strawberries and bananas. Two fresh-cracked eggs cooked-to-order, served with your choice of breakfast meat and hash browns, home fries or grits.
 </description>
-</food>
+</food_allergic>
+</BREAKFAST_menu>

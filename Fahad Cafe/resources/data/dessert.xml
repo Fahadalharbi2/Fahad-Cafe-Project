@@ -1,3 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="dessert.xsl"?>
 <DESSERT_menu>
 <DESSERT>
 <name>CINNAMON PULL APART </name>
@@ -10,13 +12,13 @@ Two pieces of soft, buttery bread coated in cinnamon sugar, baked gooey and topp
 <description>
 A scoop of creamy vanilla ice cream layered with caramel, finished with whipped topping.
 </description>
-<DESSERT>
+</DESSERT>
 <DESSERT>
 <name>CHOCOLATE FUDGE SUNDAE </name>
 <description>
 A scoop of creamy vanilla ice cream layered with chocolate fudge, finished with whipped topping.
 </description>
-<DESSERT>
+</DESSERT>
 <DESSERT>
 <name>DOUBLE CRUST APPLE PIE</name>
 <description>
@@ -56,7 +58,7 @@ Sometimes you just have to have pie. Not that mathematical type, but light, fluf
 <DESSERT>
 <name>Ice Cream</name>
 <description>
-Choose between chocolate or vanilla,
+Choose between chocolate or vanilla.
 </description>
 </DESSERT>
 </DESSERT_menu>

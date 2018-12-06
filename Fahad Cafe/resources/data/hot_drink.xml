@@ -1,3 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="hot_drink.xsl"?>
+
+
 <hot_drink_menu>
 <drink>
 <name>AMERICANO</name>
@@ -53,4 +57,32 @@ Our Cappuccino is made from freshly ground and brewed espresso combined with ste
 a coffee beans fron France with milk flavored
 </description>
 </drink>
+
+
+<!-- Milk types  -->
+
+<milk>
+<name>Soy milk</name>
+</milk>
+
+<milk>
+<name>Almond milk</name>
+</milk>
+
+
+<milk>
+<name>Rice milk</name>
+</milk>
+
+
+<milk>
+<name>Oat milk</name>
+</milk>
+
+
+
+
+
+
+
 </hot_drink_menu>
